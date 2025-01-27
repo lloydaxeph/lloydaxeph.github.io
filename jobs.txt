@@ -1,0 +1,25 @@
+ModelOps Engineer|Trax Retail|May 2022 - Present|trax.jfif|Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Duis hendrerit, augue ut scelerisque dictum.Velit odio scelerisque tellus, a tristique risus neque eu lorem.
+Vivamus ac convallis ligula.
+Nam quam elit, euismod nec convallis id, sagittis non lectus.
+Donec porta iaculis urna, ac laoreet ex.
+Nam quis euismod ipsum, vel commodo sapien.
+Nunc vel tincidunt sem. Aliquam erat volutpat.
+Nulla vitae turpis dolor.
+Sed hendrerit tincidunt diam in imperdiet.
+
+Software Developer|DevSoft Philippines|April 2021 - May 2022|devsoft.jfif|Developed scalable applications to enhance business processes.
+Collaborated with teams across multiple departments to deliver high-quality solutions.
+Implemented automation tools to reduce manual effort and improve efficiency.
+Optimized existing codebases to enhance performance.
+Provided technical training and documentation for new tools.
+
+Automation Equipment Service Engineer|P.IMES|January 2020 - April 2021|pimes.png|Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Duis hendrerit, augue ut scelerisque dictum.Velit odio scelerisque tellus, a tristique risus neque eu lorem.
+Vivamus ac convallis ligula.
+Nam quam elit, euismod nec convallis id, sagittis non lectus.
+Donec porta iaculis urna, ac laoreet ex.
+Nam quis euismod ipsum, vel commodo sapien.
+Nunc vel tincidunt sem. Aliquam erat volutpat.
+Nulla vitae turpis dolor.
+Sed hendrerit tincidunt diam in imperdiet.
