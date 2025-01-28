@@ -41,18 +41,18 @@ function introTypeEffect(callback) {
 }
 
 function introDescTypeEffect() {
-    const toHighlight = ["ModelOps Engineer", "Philippines"];
+    const toHighlight = ["ModelOps Engineer", "Philippines", "Lloyd Nikko Acha", "Trax Retail"];
     const startYear = 2020;
 
     const typeIntroDesc = document.getElementById("introDesc-text");
     const currentYear = new Date().getFullYear();
 
     typeIntroDesc.innerHTML = typeIntroDesc.innerHTML.replace("{yearExperience}", 
-        `<span class="alt-txt-clr bld">${currentYear - startYear}</span>`) ;
+        `<span class="bld">${currentYear - startYear}</span>`) ;
 
     for (let i = 0; i < toHighlight.length; i++) {
         typeIntroDesc.innerHTML = typeIntroDesc.innerHTML.replace(toHighlight[i], 
-            `<span class="alt-txt-clr bld">${toHighlight[i]}</span>`);
+            `<span class="bld">${toHighlight[i]}</span>`);
     }
 
     typeIntroDesc.style.opacity = 1;
@@ -83,6 +83,53 @@ window.addEventListener('resize', () => {
     updateCarousel();
 });
 
+/* document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll(".container");
+    let currentSectionIndex = 0;
+    let isScrolling = false;
+
+    function isNearBottom(element, threshold = 100) {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        return rect.bottom <= windowHeight + threshold;
+      }
+
+    function scrollToSection(index) {
+      isScrolling = true;
+      sections[index].scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+  
+      setTimeout(() => {
+        isScrolling = false;
+      }, 1000);
+    }
+  
+    window.addEventListener("wheel", (event) => {
+      if (isScrolling) return;
+      const containers = document.querySelectorAll(".container");
+      if (isNearBottom(containers[currentSectionIndex])) {
+        if (event.deltaY > 0) {
+            // Scroll down
+            if (currentSectionIndex < sections.length - 1) {
+              currentSectionIndex++;
+              scrollToSection(currentSectionIndex);
+            }
+          } else {
+            // Scroll up
+            if (currentSectionIndex > 0) {
+              currentSectionIndex--;
+              scrollToSection(currentSectionIndex);
+            }
+          }
+      }
+    });
+  }); */
+
 window.onload = () => {
     introTypeEffect(introDescTypeEffect);
 };
+
+
+  

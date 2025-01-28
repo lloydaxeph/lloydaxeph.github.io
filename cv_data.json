@@ -1,0 +1,153 @@
+{
+    "jobs" : [
+        {
+            "position": "ModelOps Engineer",
+            "company" : "Trax Retail",
+            "tenure" : "May 2022 - Present",
+            "logo" : "trax.jfif",
+            "desc" : [
+                "Responsible for training, managing, and deploying unique AI (Computer Vision) models seamlessly into various client-specific business environment",
+                "Assumed the role of team leader during my manager's extended leave, overseeing team operations and ensuring continuous progress",
+                "Created an automated process enabling the Sales or Back Office team to initiate engine training simply by simply creating a specific Jira ticket without any assistance",
+                "Automated the validation and submission process for raw data to the voting system",
+                " Implemented automated analytical reports upon engine training completion, based on test results, to facilitate easy visualization and provide deeper insights into model performance",
+                "Developed tools to identify issues such as poor image quality, masking, and other factors that could negatively impact model performance",
+                "Resolved numerous bugs and enhanced existing features in the legacy codebase",
+                "Founding member of a global AI team, collaborating with AI/ML engineers and data scientists worldwide to foster consistent knowledge sharing and innovation"
+            ]
+        },
+        {
+            "position": "Software Developer",
+            "company" : "DevSoft Philippines",
+            "tenure" : "April 2021 - May 2022",
+            "logo" : "devsoft.jfif",
+            "desc" : [
+                "Responsible in writing clean code related to the application of DevExpress products into a client specific business environment",
+                "Was in charge of ASP.NET Web Forms, MVC, and Blazor support for DevExpress clients",
+                "Provided real-time client support on how to implement DevExpress Components in their projects",
+                "Created several use-case examples published on the DevExpress website, demonstrating practical applications of the platform",
+                "Resolved numerous bugs and enhanced existing features in the legacy codebase to improve functionality and stability",
+                "Works with DevExpress developers to find bugs, troubleshoot, and improve existing products",
+                "Was responsible for creating documentation for proper product implementation and troubleshooting procedures"
+            ]
+        },
+        {
+            "position": "Automation Equipment Service Engineer",
+            "company" : "P.IMES",
+            "tenure" : "January 2020 - April 2021",
+            "logo" : "pimes.png",
+            "desc" : [
+                "Supervised all service operations of the company throughout the Philippines",
+                "Hands-on with both the assembly and troubleshooting of robots and other automation machines",
+                "Successfully managed projects that were delivered way ahead of schedule and under budget",
+                "Contributed to the mechanical/electrical design of most automation machines",
+                "Introduced several guidelines and created various tools using in-house materials to decrease production costs while increasing workflow efficiency"
+            ]
+        }
+    ],
+    "skills": [
+    {
+      "name": "Python",
+      "proficiency": 9,
+      "logo": "python.jfif"
+    },
+    {
+      "name": "C#",
+      "proficiency": 8,
+      "logo": "cshr.png"
+    },
+    {
+      "name": "C++",
+      "proficiency": 7,
+      "logo": "cpps.png"
+    },
+    {
+      "name": "Keras",
+      "proficiency": 8,
+      "logo": "Keras.png"
+    },
+    {
+      "name": "Tensor Flow",
+      "proficiency": 8,
+      "logo": "tensorflow.png"
+    },
+    {
+      "name": "Open CV",
+      "proficiency": 8,
+      "logo": "opencv_logo.jfif"
+    },
+    {
+        "name": "AWS",
+        "proficiency": 6,
+        "logo": "aws.png"
+      },
+      {
+        "name": "ASP.NET",
+        "proficiency": 8,
+        "logo": "asp.png"
+      },
+      {
+        "name": "Git",
+        "proficiency": 8,
+        "logo": "git.png"
+      },
+      {
+        "name": "Kubernetes",
+        "proficiency": 6,
+        "logo": "kubernetes.png"
+      },
+      {
+        "name": "React JS",
+        "proficiency": 6,
+        "logo": "react.png"
+      },
+      {
+        "name": "Flask",
+        "proficiency": 6,
+        "logo": "flask.png"
+      }
+  ],
+  "projects" : [
+    {
+        "title": "Sign Language Translator",
+        "desc" : [
+            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhsa gdjhag dhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhs agdjhagdhjsagdj asgdjhasgdjh"
+        ],
+        "link" : "https://github.com/lloydaxeph/human_action_detector",
+        "background": "test.jfif"
+    },
+    {
+        "title": "Sign Language Translator",
+        "desc" : [
+            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhsa gdjhag dhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhs agdjhagdhjsagdj asgdjhasgdjh"
+        ],
+        "link" : "https://github.com/lloydaxeph/human_action_detector",
+        "background": "test.jfif"
+    },
+    {
+        "title": "Sign Language Translator",
+        "desc" : [
+            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhsa gdjhag dhjsagdjhasgdjhasgdjh",
+            "asdasdgasjdghasjhgdasjhgdjhs agdjhagdhjsagdj asgdjhasgdjh"
+        ],
+        "link" : "https://github.com/lloydaxeph/human_action_detector",
+        "background": "test.jfif"
+    },
+    {
+        "title": "Sign Language Translator",
+        "desc" : [
+            "teasdasdsa"
+        ],
+        "link" : "https://github.com/lloydaxeph/human_action_detector",
+        "background": "test.jfif"
+    }
+  ]
+}
