@@ -49,7 +49,7 @@
     {
       "name": "Python",
       "proficiency": 9,
-      "logo": "python.jfif"
+      "logo": "python.png"
     },
     {
       "name": "C#",
@@ -93,61 +93,101 @@
       },
       {
         "name": "Kubernetes",
-        "proficiency": 6,
+        "proficiency": 5,
         "logo": "kubernetes.png"
       },
       {
         "name": "React JS",
-        "proficiency": 6,
+        "proficiency": 4,
         "logo": "react.png"
       },
       {
         "name": "Flask",
         "proficiency": 6,
         "logo": "flask.png"
+      },
+      {
+        "name": "Javascript",
+        "proficiency": 8,
+        "logo": "js.png"
+      },
+      {
+        "name": "Matlab",
+        "proficiency": 6,
+        "logo": "matlab.png"
+      },
+      {
+        "name": "AutoCAD",
+        "proficiency": 9,
+        "logo": "cad.png"
+      },
+      {
+        "name": "SolidWorks",
+        "proficiency": 9,
+        "logo": "solidworks.png"
+      },
+      {
+        "name": "MySQL",
+        "proficiency": 9,
+        "logo": "mysql.png"
+      },
+      {
+        "name": "MongoDB",
+        "proficiency": 9,
+        "logo": "mongodb.png"
       }
   ],
   "projects" : [
     {
-        "title": "Sign Language Translator",
+        "title": "AI Papers Implementations",
         "desc" : [
-            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhsa gdjhag dhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhs agdjhagdhjsagdj asgdjhasgdjh"
+            "Multi-Head Attention Transformer - Attention Is All You Need",
+            "Generative Adversarial Network",
+            "ImageNet Classification with Deep Convolutional Neural Networks",
+            "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
         ],
-        "link" : "https://github.com/lloydaxeph/human_action_detector",
-        "background": "test.jfif"
+        "link" : "https://github.com/lloydaxeph/ai_paper_implementations",
+        "background": "proj1.png"
     },
     {
         "title": "Sign Language Translator",
         "desc" : [
-            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhsa gdjhag dhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhs agdjhagdhjsagdj asgdjhasgdjh"
+            "A simple model that will detect specific human actions with just a few samples for training. Intended to be used as a live sign language translator."
         ],
-        "link" : "https://github.com/lloydaxeph/human_action_detector",
-        "background": "test.jfif"
+        "link" : "https://github.com/lloydaxeph/sign_language_detector",
+        "background": "proj2.png"
     },
     {
-        "title": "Sign Language Translator",
+        "title": "Lifebuoy Carrying Drone",
         "desc" : [
-            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhsagdjh agdhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhsa gdjhag dhjsagdjhasgdjhasgdjh",
-            "asdasdgasjdghasjhgdasjhgdjhs agdjhagdhjsagdj asgdjhasgdjh"
+            "The following is one of our undergraduate project where we made a drone out of store-bought part. This drone was designed to carry and drop a lifebuoy near an active drowning victim where he/she can reach easily and where she can stay afloat while waiting for the rescuer to arrive."
         ],
-        "link" : "https://github.com/lloydaxeph/human_action_detector",
-        "background": "test.jfif"
+        "link" : "https://github.com/lloydaxeph/lifebuoy_carrying_drone",
+        "background": "proj3.png"
     },
     {
-        "title": "Sign Language Translator",
+        "title": "AI Language Translator",
         "desc" : [
-            "teasdasdsa"
+            "This project aims to train and use a multi-head attention transformer model to translate German text to English. Dataset that will be used in this implemenation is the Multi30k dataset. The model that will be used is the Multi-Head Self-Attention Transformer model I created from scratch."
         ],
-        "link" : "https://github.com/lloydaxeph/human_action_detector",
-        "background": "test.jfif"
+        "link" : "https://github.com/lloydaxeph/german_english_translator",
+        "background": "proj4.png"
+    },
+    {
+        "title": "CopyCase",
+        "desc" : [
+            "A website that automatically downloads specific Philippine legal case documents from the internet in a single click of a button."
+        ],
+        "link" : "https://github.com/lloydaxeph/copycase",
+        "background": "proj5.png"
+    },
+    {
+      "title": "ImageNet CNN Model",
+      "desc" : [
+          "A simple implementation of the paper ImageNet Classification with Deep Convolutional Neural Networks using pytorch."
+      ],
+      "link" : "https://github.com/lloydaxeph/imagenet_cnn_implementation",
+      "background": "proj6.png"
     }
   ]
 }

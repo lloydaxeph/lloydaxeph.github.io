@@ -57,6 +57,10 @@ function introDescTypeEffect() {
 
     typeIntroDesc.style.opacity = 1;
     typeIntroDesc.style.transform = "translateY(0)"; 
+
+    const introNav = document.getElementById("intro-nav");
+    introNav.style.opacity = 1;
+    introNav.style.transform = "translateY(0)"; 
 }
 
 function updateCarousel() {

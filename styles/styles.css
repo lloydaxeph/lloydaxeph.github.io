@@ -6,12 +6,31 @@ body {
   color: #333;
 }
 
+.bg-color1{
+  background-color: white;
+  color: #333;
+}
+
+.bg-color2{
+  background-color: #333;
+  color: white;
+}
+
+.bg-color3{
+  background-color: #007bff;
+  color: white;
+}
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   padding: 20px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .flex-center{
@@ -34,7 +53,7 @@ body {
 }
 
 .flex-start{
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 
 .h100{
@@ -87,6 +106,10 @@ body {
   background-position: center;
 }
 
+.m10{
+  margin: 10px;
+}
+
 .intro{
   font-size: 50px;
   margin: 0 0 20px;
@@ -108,12 +131,6 @@ body {
 
 .intro-cont{
   height: 340px;
-}
-
-.introDesc-text {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 20px;
 }
 
 .intro-navigation {
@@ -150,6 +167,12 @@ body {
   transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
+#intro-nav{
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
 @keyframes blink {
   50% {
     opacity: 0;
@@ -167,7 +190,7 @@ body {
 
 #cpu-pic{
   height: 300px;
-  width: 70%;
+  width: 90%;
   background-image: url('../media/cpu1.JPG');
   background-size: cover; /* Or 'cover', depending on your need */
   background-repeat: no-repeat;
@@ -175,16 +198,15 @@ body {
 }
 
 #educ-desc{
-  width: 100%;
+  width: 90%;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 #school-extra{
   max-width: 40h;
   width: 100%;
   height: 300px;
-}
-
-#school-extra div{
-  margin: 10px;
 }
 
 #diploma{
@@ -220,6 +242,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
   width: 90%;
+  height: 80%;
 }
 .awards-item1{
   grid-column-start: 1;
@@ -324,12 +347,27 @@ body {
   font-weight: 900;
 }
 
+.hobby-list{
+  font-weight: bold;
+  margin: 0;
+}
+
+ul.hobby-list li {
+  margin-bottom: 20px; /* Adjust vertical spacing */
+  position: relative; /* Enable positioning for bullet customization */
+}
+
+ul.hobby-list li::marker {
+  font-size: 1.5em; /* Adjust bullet size */
+  color: #333; /* Change bullet color if needed */
+}
+
 .head-center{
   align-self: center;
 }
 
 .head-left{
-  align-self: flex-start;
+  align-self: flex-start !important;
 }
 
 .head-right{
@@ -344,6 +382,11 @@ body {
   font-weight: bold;
   margin: 0 10px;
   z-index: 10;
+  
+}
+
+.arrow:hover{
+  background-color: rgb(0, 0, 0, 0.03);
 }
 
 .carousel{
@@ -545,6 +588,7 @@ body {
   align-items: center; 
   cursor: pointer;
   padding: 15px;
+  border-radius: 5px;
 }
 
 .project-title {
@@ -559,13 +603,14 @@ body {
 .project-img{
   height: 150px;
   width: 100%;
-  background-image: url(../media/test.jfif);
+  background-size: cover;
+  background-position: center;
 }
 
 .project-desc{
   font-size: 20px;
   width: 100%;
-  margin: 25px 10px 0px 10px;
+  margin: 25px 10px 0px 0px;
 }
 
 .project-desc ul{
@@ -587,6 +632,7 @@ body {
   gap: 35px 15px;
   justify-items: center;
   max-width: 95%;
+  width: 80%;
 }
 
 /* Contact Page */
@@ -595,23 +641,26 @@ body {
   width: 40px;
   height: 40px;
   fill: #333;
+  margin: 0 27px;
 }
 
 #contact{
   font-size: 30px;
 }
 
+
 .contact-basic{
   width: 800px;
+  margin: 30px 0;
 }
 
 .socials{
   display: flex;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   justify-content: center;
   align-items: center;
-  background-color: #1d4ed8; /* Blue shade */
+  background-color: #007bff; /* Blue shade */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -621,12 +670,17 @@ body {
 
 .socials:hover {
   transform: translateY(-10px) scale(1.05); /* Fly and enlarge */
-  background-color: #1e40af; /* Darker blue on hover */
+  background-color: #0862c3; /* Darker blue on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
 }
 
 .social-icon{
-  width: 160px;
-  height: 160px;
-  fill: #333;
+  width: 130px;
+  height: 130px;
+  fill: white;
+  color: white;
+}
+
+.contact-basic svg{
+  fill: #007bff;
 }
