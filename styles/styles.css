@@ -191,7 +191,7 @@ body {
 #cpu-pic{
   height: 300px;
   width: 90%;
-  background-image: url('../media/cpu1.JPG');
+  background-image: url('../media/cpu1.jpg');
   background-size: cover; /* Or 'cover', depending on your need */
   background-repeat: no-repeat;
   background-position: center;
