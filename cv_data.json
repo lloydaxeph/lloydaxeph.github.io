@@ -49,7 +49,7 @@
     {
       "name": "Python",
       "proficiency": 9,
-      "logo": "python.png"
+      "logo": "python.PNG"
     },
     {
       "name": "C#",
@@ -147,7 +147,7 @@
             "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
         ],
         "link" : "https://github.com/lloydaxeph/ai_paper_implementations",
-        "background": "proj1.png"
+        "background": "proj1.PNG"
     },
     {
         "title": "Sign Language Translator",
@@ -155,7 +155,7 @@
             "A simple model that will detect specific human actions with just a few samples for training. Intended to be used as a live sign language translator."
         ],
         "link" : "https://github.com/lloydaxeph/sign_language_detector",
-        "background": "proj2.png"
+        "background": "proj2.PNG"
     },
     {
         "title": "Lifebuoy Carrying Drone",
@@ -163,7 +163,7 @@
             "The following is one of our undergraduate project where we made a drone out of store-bought part. This drone was designed to carry and drop a lifebuoy near an active drowning victim where he/she can reach easily and where she can stay afloat while waiting for the rescuer to arrive."
         ],
         "link" : "https://github.com/lloydaxeph/lifebuoy_carrying_drone",
-        "background": "proj3.png"
+        "background": "proj3.PNG"
     },
     {
         "title": "AI Language Translator",
@@ -171,7 +171,7 @@
             "This project aims to train and use a multi-head attention transformer model to translate German text to English. Dataset that will be used in this implemenation is the Multi30k dataset. The model that will be used is the Multi-Head Self-Attention Transformer model I created from scratch."
         ],
         "link" : "https://github.com/lloydaxeph/german_english_translator",
-        "background": "proj4.png"
+        "background": "proj4.PNG"
     },
     {
         "title": "CopyCase",
@@ -179,7 +179,7 @@
             "A website that automatically downloads specific Philippine legal case documents from the internet in a single click of a button."
         ],
         "link" : "https://github.com/lloydaxeph/copycase",
-        "background": "proj5.png"
+        "background": "proj5.PNG"
     },
     {
       "title": "ImageNet CNN Model",
@@ -187,7 +187,7 @@
           "A simple implementation of the paper ImageNet Classification with Deep Convolutional Neural Networks using pytorch."
       ],
       "link" : "https://github.com/lloydaxeph/imagenet_cnn_implementation",
-      "background": "proj6.png"
+      "background": "proj6.PNG"
     }
   ]
 }
