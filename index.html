@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lloyd's Portfolio</title>
+  <link rel="icon" type="image/png" href="/media/favicon-32x32.png">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/experience.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="styles/skills.css">
+  <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
   <div id="landing" class="container">
@@ -30,39 +36,58 @@
       </div>
     </div>
   </div>
-  <div id="aboutme" class="container flex-col">
-    <span class="page-head head-left">ABOUT ME</span>
+  <div id="aboutme" class="container flex-col bg-color2">
+    <!-- <span class="page-head head-left">ABOUT ME</span> -->
     <div class="carousel">
       <button class="arrow a-left" disabled>&#8249;</button>
       <div class="carousel-track">
         <!-- SLIDE 1 -->
         <div class="slide flex-col flex-center ">
-          <b style="font-size: 50px;">My Education</b>
-          <div class="flex-row flex-center flex-even w100">
-            <div class="flex-col flex-center w100 text-center">
-              <b style="font-size: 30px;">Bachelor of Science in</b>
-              <b style="font-size: 45px;">Mechanical Engineering</b>
-              <div id="educ-desc" class="flex-row">
-                <span>Central Philippine University</span>
-                <b>2014 - 2018</b>
+          <div class=" w100 m10">
+            <b class="heavy" style="font-size: 50px;">ABOUT ME</b>
+          </div>
+          <div class="flex-row h100 w100">
+            <!-- Section-1 -->
+            <div class="flex-col w100 h100 flex-center">
+              <div class="aboutme-pic w100 h100"></div>
+              
+              <div class="aboutme-desc text-center">
+                <p>My name is Lloyd Nikko Acha, and I am a ModelOps Engineer at Trax Retail. I'm from the Philippines and currently reside in Iloilo City. I hold a bachelor's degree and a professional license as a Mechanical Engineer. With 5 years of experience in the tech industry, I specialize in software, electronics, and mechanical engineering, with a strong focus on AI, machine learning, robotics, and other related subjects.</p>
               </div>
-              <div id="cpu-pic"></div>
             </div>
-            <div class="flex-col w100">
-              <div id="school-extra" class="flex-row flex-center">
-                <div class="w100 m10">
-                  <div id="diploma" class="floater"></div>
+            <!-- Section-2 -->
+            <div class="w100 h100 flex-col flex-center">
+              <div class="educ-desc flex-col">
+                <div class="line w100"></div>
+                <div class="flex-col">
+                  <span style="font-size: 20px">I studied</span>
+                  <span style="font-size: 20px">Bachelor of Science in <b>Mechanical Engineering</b> at</span>
+                  <b style="font-size: 23px">Central Philippine University</b>
                 </div>
-                <div class="w100 m10">
-                  <div id="license" class="floater"></div>
+                <div class="line w100"></div>
+              </div>
+              <div class="flex-col w100 h100">
+                <div id="school-extra" class="flex-row flex-center">
+                  <div class="w100 m10">
+                    <div id="diploma" class="floater"></div>
+                    <span>College Diploma</span>
+                  </div>
+                  <div class="w100 m10">
+                    <div id="license" class="floater"></div>
+                    <span>Philippine Professional Engineering License</span>
+                  </div>
                 </div>
               </div>
+              <div class="line w100 m10"></div>
             </div>
           </div>
         </div>
         <!-- SLIDE 2 -->
         <div class="slide flex-col flex-center">
-          <b style="font-size: 50px; margin-bottom: 20px">My hobbies</b>
+          <div class="w100 m10 flex-col flex-center">
+            <b style="font-size: 50px;">My Hobbies</b>
+          </div>
+          <!-- Section-1 -->
           <div class="grid-container w100 h100">
             <div class="grid-item item-1 flex-col flex-start">
               <ul class="hobby-list">
@@ -86,9 +111,12 @@
           </div>
         </div>
         <!-- SLIDE 3 -->
-        <div class="slide flex-col flex-center">
-          <b style="font-size: 50px; margin-bottom: 20px">Some Awards & Certificates</b>
-          <div class="grid-container-awards w100 h100">
+        <div class="slide flex-col flex-start">
+          <div class="w100 m10 flex-col flex-center">
+            <b style="font-size: 50px;">Some Awards & Certificates</b>
+          </div>
+          <div class="line w100" style="margin-bottom: 10px; width: 95%"></div>
+          <div class="grid-container-awards w100">
             <div class="awards-item1 flex-col flex-center floater">
             </div>
             <div class="awards-item2 flex-col flex-center floater">
@@ -96,83 +124,104 @@
             <div class="awards-item3 flex-col flex-center floater">
             </div>
           </div>
+          <div class="line" style="margin-top: 10px; width: 95%"></div>
         </div>
       </div>
       <button class="arrow a-right">&#8250;</button>
     </div>
   </div>
-  <div id="experience" class="container flex-col">
-    <span class="page-head head-left">EXPERIENCE</span>
-    <div class="exp-container flex-col h100 w100">
+  <div id="experience" class="container flex-col h100 bg-color4">
+    <div class="page-head flex-row flex-start">
+      <b class="font-w900">EXPERIENCE</b>
+    </div>
+    <div id="jobs-container" class="flex-col flex-center h100 ">
     </div>
   </div>
-  <div id="projects" class="container flex-col flex-start">
-    <span class="page-head head-center projects-head">THINGS THAT I'VE WORKED ON</span>
-    <div class="projects-container h100 w100">
+  <div id="projects" class="container flex-col flex-start h100">
+    <div class="page-head flex-row flex-center w100">
+      <b class="font-w900">PROJECTS</b>
     </div>
+    <div class="projects-container h100">
+    </div>
+    <div id="more-btn" class="text-center bg-color4 font-w900 floater-small" onclick="window.open('https://github.com/lloydaxeph?tab=repositories')">OTHER PROJECTS</div>
   </div>
+  <div class="line bg-color2" style="margin: 50px; height: 5px"></div>
   <div id="skills" class="container flex-col flex-start">
-    <span class="page-head head-center" style="margin-bottom: 10px;">SKILLS</span>
-    <p style="width: 60%; text-align: center; font-size: 20px;">Here are some of the skills I have acquired over the years.
-       The numbers indicate my proficiency in each skill, 
-       with <b>10</b> being the highest and <b>1</b> being the lowest.</p>
-    <div class="skills-container h100 w100">
-    </div>
-  </div>
-  <div id="contact" class="container flex-col flex-start">
-    <span class="page-head">CONTACT</span>
-    <div class="contact-container flex-col flex-center text-center">
-      <p style="margin:0; font-size: 23px; width: 70%;">
-        Thanks for visiting my page. You can reach out to me through the following:
-      </p>
-      <div class="contact-basic flex-col flex-center text-center">
-        <div id="contact-number" class="flex-row m10">
-          <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z"/>
-          </svg>
-          <span>(+63) 9394359280</span>
-        </div>
-        <div id="contact-email" class="flex-row m10">
-          <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z"/>
-            <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z"/>
-          </svg>          
-          <span>lloydacha@gmail.com</span>
-        </div>
-        <div id="contact-address" class="flex-row m10">
-          <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z" clip-rule="evenodd"/>
-          </svg>
-          <span>Pavia, Iloilo City, Philippines</span>
-        </div>
+    <div id="skills-head" class="flex-row h100">
+      <div class="page-head flex-row flex-start mp0">
+        <b id="skills-title" class="font-w900">TECHNICAL SKILLS</b>
       </div>
-      <div class="contact-socials flex-row w100 h100 flex-center">
-        <div id="github" class="socials" onclick="window.open(`https://github.com/lloydaxeph`)">
-          <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
-          </svg>          
-        </div>
-        <div id="linkedin" class="socials" onclick="window.open(`https://www.linkedin.com/in/lloydacha`)">
-          <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
-            <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
-          </svg>          
-        </div>
-        <div id="leetcode" class="socials" onclick="window.open(`https://leetcode.com/u/lloydacha/`)">
-          <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
-          </svg>
-        </div>
-        <div id="instagram" class="socials" onclick="window.open(`https://www.instagram.com/axesphotos_`)">
-          <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-            <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
-          </svg>          
-        </div>
+      <div id="skills-desc" class="w100 h100">
+        Here are some of the technical skills I have acquired over the years. The percentage shown indicate my proficiency in each skill, with <b>100%</b> being the highest.
       </div>
     </div>
+    <div class="skill-container h100">
+    </div>
   </div>
-  <div class="w100 bg-color2" style="height: 80px"></div>
+  <div class="line bg-color2" style="margin: 50px; height: 5px"></div>
+  <div id="contact" class="container flex-col">
+    <div id="contact-container" class="flex-row h100">
+      <!-- SECTION-1 -->
+      <div class="contact-pic h100"></div>
+      <!-- SECTION-2 -->
+      <div class="flex-col flex-between w100 h100 ">
+        <div class="page-head flex-row flex-start w100">
+          <b id="contact-title" class="font-w900">
+            LET'S GET<br>
+            IN TOUCH
+          </b>
+        </div>
+        <div class="contact-basic flex-col flex-start text-center">
+          <div id="contact-number" class="flex-row m10">
+            <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z"/>
+            </svg>
+            <span>(+63) 9394359280</span>
+          </div>
+          <div id="contact-email" class="flex-row m10">
+            <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z"/>
+              <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z"/>
+            </svg>          
+            <span>lloydacha@gmail.com</span>
+          </div>
+          <div id="contact-address" class="flex-row m10">
+            <svg class="contact-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z" clip-rule="evenodd"/>
+            </svg>
+            <span>Pavia, Iloilo City, Philippines</span>
+          </div>
+        </div>
+        <div class="contact-socials flex-row w100 h100 flex-start">
+          <div id="github" class="socials" onclick="window.open(`https://github.com/lloydaxeph`)" data-hint="Github">
+            <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"/>
+            </svg>          
+          </div>
+          <div id="linkedin" class="socials" onclick="window.open(`https://www.linkedin.com/in/lloydacha`)" data-hint="LinkedIn">
+            <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
+              <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
+            </svg>          
+          </div>
+          <div id="leetcode" class="socials" onclick="window.open(`https://leetcode.com/u/lloydacha/`)" data-hint="Leetcode">
+            <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
+            </svg>
+          </div>
+          <div id="instagram" class="socials" onclick="window.open(`https://www.instagram.com/axesphotos_`)" data-hint="Instagram">
+            <svg class="social-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+            </svg>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="flex-col flex-center w100 bg-color2" style="height: 50px">
+    <span style="width: 95%;">© 2025 Lloyd Acha Portfolio</span>    
+  </div>
   <script src="scripts/script.js"></script>
-  <script src="scripts/exp_script.js"></script>
+  <script src="scripts/dynamic_generation.js"></script>
 </body>
 </html>

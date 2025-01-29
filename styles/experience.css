@@ -1,0 +1,50 @@
+#jobs-container{
+    width: 85%
+}
+
+#jobs-container .line{
+    height: 5px;
+}
+
+.job-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.job-logo{
+    width: 340px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.job-head{
+    font-size: 37px;
+    letter-spacing: -1px;
+    margin: 20px 0px;
+}
+
+.company{
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+.tenure {
+    white-space: nowrap;
+  }
+  
+
+.job-deets{
+    max-height: 180px;
+    overflow-y: auto;
+    margin-top: 30px;
+}
+
+.job-deets li {
+    margin-right: 250px; /* Space for bullet */
+}
+
+.job-text{
+    margin-left: 50px;
+}
