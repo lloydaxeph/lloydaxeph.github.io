@@ -235,7 +235,7 @@ window.addEventListener('resize', () => {
     updateCarousel();
 });
 
-window.addEventListener('scroll', function() {
+/* window.addEventListener('scroll', function() {
     let currentScroll = window.scrollY;
 
     if (currentScroll > lastScrollTop) {
@@ -246,7 +246,7 @@ window.addEventListener('scroll', function() {
         topNav.style.top = '0'; // Show the nav at the top
     }
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Prevent negative scroll
-});
+}); */
 
 window.onload = () => {
     introTypeEffect(introDescTypeEffect);
