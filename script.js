@@ -1,38 +1,76 @@
-document.addEventListener("DOMContentLoaded", () =>{
-    //Containers
-    const jobsContainer = document.getElementById("jobs-container");
-    const projectContainer = document.querySelector(".projects-container");
-    const skillContainer = document.querySelector(".skill-container");
+// CONSTANTS
+const track = document.querySelector('.carousel-track');
+const items = Array.from(track.children);
+const nextButton = document.querySelector('.a-right');
+const prevButton = document.querySelector('.a-left');
+const itemWidth = items[0].getBoundingClientRect().width;
 
-    //Fetch data
-    fetch("cv_data.json")
-    .then((response) => response.json())
-    .then((data) => {
-      //JOBS
-      const jobs = data.jobs;
-      jobs.forEach((job) => {
-          const jobItem = createJobItem(job.position, job.tenure, job.company,job.type, job.remote, job.logo, job.desc);
-          jobsContainer.appendChild(jobItem);
-      });
+let currentIndex = 0;
 
-      //PROJECTS
-      const projects = data.projects;
-      projects.forEach((project) => {
-          const projectItem = createProjectItem(project.title, project.background, project.desc, project.link);
-          projectContainer.appendChild(projectItem);
-      });
+let index = 0;
+let descIndex = 0;
 
-      //SKILLS
-      const skills = data.skills;
-      skills.forEach((skill) => {
-          const projectItem = createSkillItem(skill.name, skill.proficiency, skill.logo);
-          skillContainer.appendChild(projectItem);
-      });
-    })
-    .catch((error) => console.error("Error loading job data:", error));
-});
+//FUNCTIONS
+function typeEffect(text, element, speed, highlightRanges, callback) {
+    if (index < text.length) {
+        let char = text[index];
+        if (char === "\n") {
+            element.innerHTML += "<br>";
+        } else {
+            let isHighlighted = false;
+            highlightRanges.forEach(([start, end]) => {
+                if (index >= start && index <= end) {
+                    isHighlighted = true;
+                    element.innerHTML += `<span class="alt-txt-clr">${char}</span>`;
+                }
+            });
+            if (!isHighlighted) element.innerHTML += char;
+        }
+        index++;
+        setTimeout(() => typeEffect(text, element, speed, highlightRanges, callback), speed);
+    } else {
+        index = 0; 
+        callback();
+    }
+}
 
-// FUNCTIONS --------------------------------------------------
+function introTypeEffect(callback) {
+    const introText = "Hi,\nI'm Lloyd, an \nAI Software Engineer.";
+    const introTextSpeed = 50;
+
+    const typeIntro = document.getElementById("intro-text");
+    typeEffect(introText, typeIntro, introTextSpeed, [[8, 12], [31, 38]], callback);
+}
+
+function introDescTypeEffect() {
+    const toHighlight = ["ModelOps Engineer", "Philippines", "Lloyd Nikko Acha", "Trax Retail"];
+    const startYear = 2020;
+
+    const typeIntroDesc = document.getElementById("introDesc-text");
+    const currentYear = new Date().getFullYear();
+
+    typeIntroDesc.innerHTML = typeIntroDesc.innerHTML.replace("{yearExperience}", 
+        `<span class="bld">${currentYear - startYear}</span>`) ;
+
+    for (let i = 0; i < toHighlight.length; i++) {
+        typeIntroDesc.innerHTML = typeIntroDesc.innerHTML.replace(toHighlight[i], 
+            `<span class="bld">${toHighlight[i]}</span>`);
+    }
+
+    typeIntroDesc.style.opacity = 1;
+    typeIntroDesc.style.transform = "translateY(0)"; 
+
+    const introNav = document.getElementById("intro-nav");
+    introNav.style.opacity = 1;
+    introNav.style.transform = "translateY(0)"; 
+}
+
+function updateCarousel() {
+    track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+    prevButton.disabled = currentIndex === 0;
+    nextButton.disabled = currentIndex === items.length - 1;
+}
+
 function createJobItem(position, tenure, company, employmentType, remote, logo, details) {
     const jobItem = document.createElement("div");
     jobItem.className = "job-item w100 h100";
@@ -172,5 +210,60 @@ function createSkillItem(name, proficiency, logo) {
     skillItem.appendChild(skillItemContent);
     return skillItem;
   }
-  
-  
+
+//EVENTS
+prevButton.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateCarousel();
+    }
+});
+
+nextButton.addEventListener('click', () => {
+    if (currentIndex < items.length - 1) {
+        currentIndex++;
+        updateCarousel();
+    }
+});
+
+window.addEventListener('resize', () => {
+    updateCarousel();
+});
+
+window.onload = () => {
+    introTypeEffect(introDescTypeEffect);
+};
+
+document.addEventListener("DOMContentLoaded", () =>{
+    //Containers
+    const jobsContainer = document.getElementById("jobs-container");
+    const projectContainer = document.querySelector(".projects-container");
+    const skillContainer = document.querySelector(".skill-container");
+
+    //Fetch data
+    fetch("../cv_data.json")
+    .then((response) => response.json())
+    .then((data) => {
+      //JOBS
+      const jobs = data.jobs;
+      jobs.forEach((job) => {
+          const jobItem = createJobItem(job.position, job.tenure, job.company,job.type, job.remote, job.logo, job.desc);
+          jobsContainer.appendChild(jobItem);
+      });
+
+      //PROJECTS
+      const projects = data.projects;
+      projects.forEach((project) => {
+          const projectItem = createProjectItem(project.title, project.background, project.desc, project.link);
+          projectContainer.appendChild(projectItem);
+      });
+
+      //SKILLS
+      const skills = data.skills;
+      skills.forEach((skill) => {
+          const projectItem = createSkillItem(skill.name, skill.proficiency, skill.logo);
+          skillContainer.appendChild(projectItem);
+      });
+    })
+    .catch((error) => console.error("Error loading job data:", error));
+});
