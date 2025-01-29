@@ -4,6 +4,8 @@ const items = Array.from(track.children);
 const nextButton = document.querySelector('.a-right');
 const prevButton = document.querySelector('.a-left');
 const itemWidth = items[0].getBoundingClientRect().width;
+let lastScrollTop = 0;
+const topNav = document.querySelector('.top-nav');
 
 let currentIndex = 0;
 
@@ -11,6 +13,10 @@ let index = 0;
 let descIndex = 0;
 
 //FUNCTIONS
+function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+}
+
 function typeEffect(text, element, speed, highlightRanges, callback) {
     if (index < text.length) {
         let char = text[index];
@@ -228,6 +234,19 @@ nextButton.addEventListener('click', () => {
 
 window.addEventListener('resize', () => {
     updateCarousel();
+});
+
+window.addEventListener('scroll', function() {
+    let currentScroll = window.scrollY;
+
+    if (currentScroll > lastScrollTop) {
+        // Scrolling down
+        topNav.style.top = '-50px'; // Hide the nav
+    } else {
+        // Scrolling up
+        topNav.style.top = '0'; // Show the nav at the top
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Prevent negative scroll
 });
 
 window.onload = () => {

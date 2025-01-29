@@ -8,6 +8,20 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav class="top-nav">
+    <div class="menu-btn" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="nav-links">
+        <a href="#aboutme2">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+  </nav>
   <div id="landing" class="container">
     <div class="pfp circle"></div>
     <div class="content">
@@ -23,7 +37,7 @@
           You can click the following headlines or scroll down to know more about me.</p>
       </div>
       <div id="intro-nav" class="intro-navigation">
-        <a href="#aboutme">ABOUT</a>
+        <a href="#aboutme1">ABOUT</a>
         <a href="#experience">EXPERIENCE</a>
         <a href="#projects">PROJECTS</a>
         <a href="#skills">SKILLS</a>
@@ -31,7 +45,7 @@
       </div>
     </div>
   </div>
-  <div id="aboutme" class="container flex-col bg-color2">
+  <div id="aboutme1" class="container flex-col bg-color2">
     <!-- <span class="page-head head-left">ABOUT ME</span> -->
     <div class="carousel">
       <button class="arrow a-left" disabled>&#8249;</button>
@@ -53,13 +67,13 @@
             <!-- Section-2 -->
             <div class="w100 h100 flex-col flex-center">
               <div class="educ-desc flex-col">
-                <div class="line w100"></div>
+                <div class="line w100 bg-color1"></div>
                 <div class="flex-col">
                   <span style="font-size: 20px">I studied</span>
                   <span style="font-size: 20px">Bachelor of Science in <b>Mechanical Engineering</b> at</span>
                   <b style="font-size: 23px">Central Philippine University</b>
                 </div>
-                <div class="line w100"></div>
+                <div class="line w100 bg-color1"></div>
               </div>
               <div class="flex-col w100 h100">
                 <div id="school-extra" class="flex-row flex-center">
@@ -73,7 +87,7 @@
                   </div>
                 </div>
               </div>
-              <div class="line w100 m10"></div>
+              <div class="line w100 m10 bg-color1"></div>
             </div>
           </div>
         </div>
@@ -124,6 +138,84 @@
       </div>
       <button class="arrow a-right">&#8250;</button>
     </div>
+  </div>
+  <div id="aboutme2" class="container flex-col bg-color2">
+        <!-- SLIDE 1 -->
+        <div class="slide flex-col flex-center ">
+          <div class="w100 m10" style="align-items: center; display: flex;justify-content: center;">
+            <b class="heavy" style="font-size: 50px;">ABOUT ME</b>
+          </div>
+          <!-- Section-1 -->
+          <div class="flex-col w100 h100 flex-center">
+            <div class="aboutme-pic w100 h100"></div>
+            
+            <div class="aboutme-desc text-center">
+              <p>My name is Lloyd Nikko Acha, and I am a ModelOps Engineer at Trax Retail. I'm from the Philippines and currently reside in Iloilo City. I hold a bachelor's degree and a professional license as a Mechanical Engineer. With 5 years of experience in the tech industry, I specialize in software, electronics, and mechanical engineering, with a strong focus on AI, machine learning, robotics, and other related subjects.</p>
+            </div>
+          </div>
+          <!-- Section-2 -->
+          <div class="w100 h100 flex-col flex-center">
+            <div class="educ-desc flex-col">
+              <div class="line w100 bg-color1"></div>
+              <div class="flex-col m10">
+                <span style="font-size: 20px">I studied</span>
+                <span style="font-size: 20px">Bachelor of Science in <b>Mechanical Engineering</b> at</span>
+                <b style="font-size: 23px">Central Philippine University</b>
+              </div>
+              <div class="line w100 bg-color1"></div>
+            </div>
+            <div class="flex-col w100 h100">
+              <div id="school-extra" class="flex-col flex-center">
+                <div class="m10" style="width: 80%;">
+                  <div id="diploma" class="floater"></div>
+                  <span>College Diploma</span>
+                </div>
+                <div class="m10" style="width: 80%;">
+                  <div id="license" class="floater"></div>
+                  <span>Philippine Professional Engineering License</span>
+                </div>
+              </div>
+            </div>
+            <div class="line w100 m10 bg-color1"></div>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="slide flex-col flex-center">
+          <div class="w100 m10 flex-col flex-center">
+            <b style="font-size: 40px;">My Hobbies</b>
+          </div>
+          <div class="photo-container">
+            <div class="flex-row flex-center w100">
+              <ul>
+                <li>Photography</li>
+                <li>Riding Motorcycles</li>
+              </ul>
+              <ul>
+                <li>Surfing</li>
+                <li>Travel</li>
+                <li>And more..</li>
+              </ul>
+            </div>
+            <div class="item-1m floater"></div>
+            <div class="item-2m floater"></div>
+            <div class="item-3m floater"></div>
+            <div class="line w100 m10 bg-color1"></div>
+          </div>
+        </div>
+        <!-- SLIDE 3 -->
+        <div class="slide flex-col flex-start">
+          <div class="w100 m10 flex-col flex-center text-center">
+            <b style="font-size: 30px;">Some Awards & Certificates</b>
+          </div>
+          <div class="awards-m flex-col flex-center h100 w100" style="margin-bottom: 50px;">
+            <div class="a-item1-m flex-col flex-center floater">
+            </div>
+            <div class="a-item2-m flex-col flex-center floater">
+            </div>
+            <div class="a-item3-m flex-col flex-center floater">
+            </div>
+          </div>
+        </div>
   </div>
   <div id="experience" class="container flex-col h100 bg-color4">
     <div class="page-head flex-row flex-start">
