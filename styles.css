@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: white;
     color: #333;
+    overflow: hidden;
   }
   
   #footer{
@@ -905,7 +906,7 @@ body {
     font-size: 40px;
   }
   #intro-nav{
-    visibility: hidden;
+    display: none;
   }
 
   #introDesc-text {
@@ -1095,7 +1096,7 @@ body {
     margin-left: 0;
   }
   .contact-basic {
-    width: 700px;
+    width: 100%;
     margin: 40px 0;
   }
 
