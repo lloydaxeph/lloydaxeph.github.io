@@ -38,7 +38,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     padding: 20px;
   }
   
@@ -169,6 +168,13 @@ body {
   }
   
   /* Landing Page */
+  #landing{
+    height: 100vh;
+  }
+  #aboutme1{
+    height: 100vh;
+  }
+
   .pfp{
     width: 500px;
     height: 500px;
@@ -1119,5 +1125,8 @@ body {
     width: 70px;
     height: 70px;
     margin: 4px;
+  }
+  .mh{
+    display: none;
   }
 }
