@@ -154,7 +154,6 @@ function createJobItem(position, tenure, company, employmentType, remote, logo, 
   
     jobItem.appendChild(jobLogo);
     jobItem.appendChild(jobText);
-    console.log(jobItem);
     return jobItem;
   }
 

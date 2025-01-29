@@ -809,7 +809,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 100%;
   background-color: #333;
   justify-content: space-between;
   align-items: center;
@@ -1025,5 +1025,99 @@ body {
   .top-nav{
     position: fixed;
     display: flex;
+  }
+
+  #experience .page-head b{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .job-logo{
+    display: none;
+  }
+  .job-text{
+    margin:0
+  }
+  .job-head{
+    font-size: 15px;
+  }
+  .company{
+    font-size: 15px;
+  }
+  .job-deets{
+    font-size: 13px;
+    padding-left: 20px;
+  }
+  .job-deets li {
+    margin: 0;
+  }
+  .job-item {
+    margin-bottom: 40px;
+  }
+
+  #projects .page-head b{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-content: center;
+    width: 85%;
+  }
+
+  .project-item {
+
+    height: 420px;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #more-btn {
+    width: 60%;
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 5px;
+  }
+
+  #skills{
+    display: none;
+  }
+
+  .contact-pic{
+    display: none;
+  }
+  #contact-title {
+    margin-left: 0;
+  }
+  .contact-basic {
+    width: 700px;
+    margin: 40px 0;
+  }
+
+  .contact-basic div{
+    margin: 0;
+    font-size: 20px;
+  }
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    fill: #333;
+    margin: 0 15px;
+  }
+  .contact-socials {
+    align-items: center;
+    margin: 0;
+    align-items: center;
+    justify-content: center !important;
+  }
+  .socials {
+    width: 70px;
+    height: 70px;
+    margin: 4px;
   }
 }
