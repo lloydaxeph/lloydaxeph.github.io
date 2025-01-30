@@ -82,9 +82,11 @@ function createJobItem(position, tenure, company, employmentType, remote, logo, 
     jobItem.className = "job-item w100 h100";
   
     // Section-1: Job Logo
-    const jobLogo = document.createElement("div");
+    const jobLogo = document.createElement("img");
     jobLogo.className = "job-logo";
-    jobLogo.style.backgroundImage = `url("../media/${logo}")`;
+    jobLogo.src = logo;
+    jobLogo.alt = "Company Photo";
+    jobLogo.referrerPolicy = "no-referrer";
     
     // Section-2: Job Text
     const jobText = document.createElement("div");
@@ -171,11 +173,11 @@ function createProjectItem(title, image, description, link) {
     projectItem.appendChild(projectTitle);
   
     // Create and append project image container
-    const projectImgContainer = document.createElement("div");
+    const projectImgContainer = document.createElement("img");
     projectImgContainer.className = "project-img";
-  
-    // Set background image for the project image container
-    projectImgContainer.style.backgroundImage = `url("../media/${image}")`;
+    projectImgContainer.src = image;
+    projectImgContainer.alt = "Project Photo";
+    projectImgContainer.referrerPolicy = "no-referrer";
     projectItem.appendChild(projectImgContainer);
   
     // Create and append project details
@@ -191,6 +193,18 @@ function createSkillItem(name, proficiency, logo) {
     const skillItem = document.createElement("div");
     skillItem.className = "skill-item floater-small";
 
+    const logoContainer = document.createElement("div");
+    logoContainer.className = "skill-item floater-small";
+    logoContainer.className = "skill-item-logo";
+    skillItem.appendChild(logoContainer);
+
+
+    const skillItemImg = document.createElement("img");
+    skillItemImg.src = logo;
+    skillItemImg.referrerPolicy = "no-referrer";
+    skillItemImg.alt = "Tools";
+    logoContainer.appendChild(skillItemImg);
+    
     const skillItemContent = document.createElement("div");
     skillItemContent.className = "skill-item-contents";
   
@@ -211,7 +225,7 @@ function createSkillItem(name, proficiency, logo) {
   
     skillItemContent.appendChild(profContainer);
 
-    skillItem.style.backgroundImage = `url("../media/${logo}")`;
+    //skillItem.style.backgroundImage = `url("../media/${logo}")`;
     skillItem.appendChild(skillItemContent);
     return skillItem;
   }

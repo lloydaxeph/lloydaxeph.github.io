@@ -6,7 +6,7 @@
             "tenure" : "May 2022 - Present",
             "type": "Full-time",
             "remote" : true,
-            "logo" : "trax.PNG",
+            "logo" : "https://i.imgur.com/08s43GZ.png",
             "desc" : [
                 "Responsible for training, managing, and deploying unique AI (Computer Vision) models seamlessly into various client-specific business environment",
                 "Assumed the role of team leader during my manager's extended leave, overseeing team operations and ensuring continuous progress",
@@ -24,7 +24,7 @@
             "tenure" : "APR 2021 - MAY 2022",
             "type": "Full-time",
             "remote" : false,
-            "logo" : "devsoft.PNG",
+            "logo" : "https://i.imgur.com/rb8uzTK.png",
             "desc" : [
                 "Responsible in writing clean code related to the application of DevExpress products into a client specific business environment",
                 "Was in charge of ASP.NET Web Forms, MVC, and Blazor support for DevExpress clients",
@@ -41,7 +41,7 @@
             "tenure" : "JAN 2020 - APR 2021",
             "type": "Full-time",
             "remote" : false,
-            "logo" : "pimes.png",
+            "logo" : "https://i.imgur.com/P5DrEs9.png",
             "desc" : [
                 "Supervised all service operations of the company throughout the Philippines",
                 "Hands-on with both the assembly and troubleshooting of robots and other automation machines",
@@ -55,92 +55,92 @@
     {
       "name": "Python",
       "proficiency": 90,
-      "logo": "python.PNG"
+      "logo": "https://i.imgur.com/OnLONPO.png"
     },
     {
       "name": "C#",
       "proficiency": 80,
-      "logo": "cshr.png"
+      "logo": "https://i.imgur.com/IuCEszH.png"
     },
     {
       "name": "C++",
       "proficiency": 70,
-      "logo": "cpps.png"
+      "logo": "https://i.imgur.com/9itlz0H.png"
     },
     {
       "name": "Keras",
       "proficiency": 80,
-      "logo": "Keras.png"
+      "logo": "https://i.imgur.com/WalJE4V.png"
     },
     {
       "name": "Tensor Flow",
       "proficiency": 80,
-      "logo": "tensorflow.png"
+      "logo": "https://i.imgur.com/Jda2oYx.png"
     },
     {
       "name": "Open CV",
       "proficiency": 80,
-      "logo": "opencv_logo.jfif"
+      "logo": "https://i.imgur.com/7YClMMv.png"
     },
     {
         "name": "AWS",
         "proficiency": 60,
-        "logo": "aws.png"
+        "logo": "https://i.imgur.com/TUUZfgc.png"
       },
       {
         "name": "ASP.NET",
         "proficiency": 80,
-        "logo": "asp.png"
+        "logo": "https://i.imgur.com/RxJGXIN.png"
       },
       {
         "name": "Git",
         "proficiency": 80,
-        "logo": "git.png"
+        "logo": "https://i.imgur.com/0t0yGVN.png"
       },
       {
         "name": "Kubernetes",
         "proficiency": 50,
-        "logo": "kubernetes.png"
+        "logo": "https://i.imgur.com/lk3KEPo.png"
       },
       {
-        "name": "React JS",
-        "proficiency": 40,
-        "logo": "react.png"
+        "name": "Django",
+        "proficiency": 70,
+        "logo": "https://i.imgur.com/iiPcWSH.png"
       },
       {
         "name": "Flask",
         "proficiency": 60,
-        "logo": "flask.png"
+        "logo": "https://i.imgur.com/XwhANb3.png"
       },
       {
         "name": "Javascript",
         "proficiency": 80,
-        "logo": "js.png"
+        "logo": "https://i.imgur.com/tmHOzOF.png"
       },
       {
         "name": "Matlab",
         "proficiency": 60,
-        "logo": "matlab.png"
+        "logo": "https://i.imgur.com/lY5Kiyl.png"
       },
       {
         "name": "AutoCAD",
         "proficiency": 90,
-        "logo": "cad.png"
+        "logo": "https://i.imgur.com/xechiIZ.png"
       },
       {
         "name": "SolidWorks",
         "proficiency": 90,
-        "logo": "solidworks.png"
+        "logo": "https://i.imgur.com/4zZa4b6.png"
       },
       {
         "name": "MySQL",
         "proficiency": 90,
-        "logo": "mysql.png"
+        "logo": "https://i.imgur.com/mIffeqU.png"
       },
       {
         "name": "MongoDB",
         "proficiency": 90,
-        "logo": "mongodb.png"
+        "logo": "https://i.imgur.com/OTelgS6.png"
       }
   ],
   "projects" : [
@@ -148,37 +148,37 @@
         "title": "AI Papers Implementations",
         "desc" : "List of AI papers I tried to implement so far: Multi-Head Attention Transformer - Attention Is All You Need, Generative Adversarial Network, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
         "link" : "https://github.com/lloydaxeph/ai_paper_implementations",
-        "background": "proj1.PNG"
+        "background": "https://i.imgur.com/43qbz7p.png"
     },
     {
         "title": "Sign Language Translator",
         "desc" : "A simple model that will detect specific human actions with just a few samples for training. Intended to be used as a live sign language translator.",
         "link" : "https://github.com/lloydaxeph/sign_language_detector",
-        "background": "proj2.PNG"
+        "background": "https://i.imgur.com/keuffcS.png"
     },
     {
         "title": "Lifebuoy Carrying Quadcopter Drone",
         "desc" : "The following is one of our undergraduate project where we made a drone out of store-bought part. This drone was designed to carry and drop a lifebuoy near an active drowning victim where he/she can reach easily and where she can stay afloat while waiting for the rescuer to arrive.",
         "link" : "https://github.com/lloydaxeph/lifebuoy_carrying_drone",
-        "background": "proj3.PNG"
+        "background": "https://i.imgur.com/5k9iy8p.png"
     },
     {
         "title": "AI Language Translator",
         "desc" : "This project aims to train and use a multi-head attention transformer model to translate German text to English. Dataset that will be used in this implemenation is the Multi30k dataset. The model that will be used is the Multi-Head Self-Attention Transformer model I created from scratch.",
         "link" : "https://github.com/lloydaxeph/german_english_translator",
-        "background": "proj4.PNG"
+        "background": "https://i.imgur.com/dxKjml8.png"
     },
     {
         "title": "CopyCase Website",
         "desc" : "A website that automatically downloads specific Philippine legal case documents from the internet in a single click of a button.",
         "link" : "https://github.com/lloydaxeph/copycase",
-        "background": "proj5.PNG"
+        "background": "https://i.imgur.com/YdE9uTB.png"
     },
     {
       "title": "ImageNet Classification CNN Implementation",
       "desc" : "A simple implementation of the paper ImageNet Classification with Deep Convolutional Neural Networks using pytorch.",
       "link" : "https://github.com/lloydaxeph/imagenet_cnn_implementation",
-      "background": "proj6.PNG"
+      "background": "https://i.imgur.com/qHNveoA.png"
     }
   ]
 }
