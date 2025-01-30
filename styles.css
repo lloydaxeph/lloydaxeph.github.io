@@ -643,11 +643,12 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .skill-item-logo img {
-  width: 100%;   /* Make the image cover the container */
-  height: 100%;  /* Ensure it fills the height */
-  object-fit: cover;  /* Similar to background-image behavior */
-  object-position: center;  /* Center the image */
+  width: 100%;  
+  height: 100%; 
+  object-fit: cover;
+  object-position: center;
 }
 
 .skill-item::before {
