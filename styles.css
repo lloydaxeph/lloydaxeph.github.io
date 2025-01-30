@@ -289,10 +289,10 @@ body {
     height: 300px;
   }
   
-  #diploma{
+  #grad-pic{
     height: 250px;
     width: 100%;
-    background-image: url('../media/diploma.JPG');
+    background-image: url('../media/grad-pic.PNG');
     background-size: cover; /* Or 'cover', depending on your need */
     background-repeat: no-repeat;
     background-position: center;
@@ -706,7 +706,7 @@ body {
 
 /* CONTACT */
 #contact{
-    height: 85vh;
+    font-size: 30px;
 }
 #contact-container{
     width: 90%;
@@ -725,10 +725,6 @@ body {
     fill: #333;
     margin: 0 27px;
   }
-  
-#contact{
-    font-size: 30px;
-}
 
 
 .contact-basic{
@@ -796,6 +792,7 @@ body {
 
 .contact-pic{
     width: 100%;
+    height: auto;
     background-image: url('../media/contact-pic.PNG');
     background-size: cover;
     background-position: center;
@@ -1094,10 +1091,31 @@ body {
     border-radius: 5px;
   }
 
-  #skills{
+/*   #skills{
+    display: none;
+  } */
+  #skills-title {
+    width: 100%;
+    font-size: 48px;
+  }
+
+  #skills-desc{
     display: none;
   }
 
+  .skill-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .skill-item {
+    height: 90px;
+    width: 90px;
+  }
+  .skill-name {
+    font-size: 12px;
+  }
   .contact-pic{
     display: none;
   }
