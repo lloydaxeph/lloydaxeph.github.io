@@ -175,10 +175,10 @@
         "background": "https://i.imgur.com/YdE9uTB.png"
     },
     {
-      "title": "ImageNet Classification CNN Implementation",
-      "desc" : "A simple implementation of the paper ImageNet Classification with Deep Convolutional Neural Networks using pytorch.",
-      "link" : "https://github.com/lloydaxeph/imagenet_cnn_implementation",
-      "background": "https://i.imgur.com/qHNveoA.png"
+      "title": "IELTSGO! AI powered IELTS Practice Website",
+      "desc" : "A free website that lets you practice several skills related to IELTS. AI is used to review and evaluate your answers.",
+      "link" : "https://www.ieltsgo.net",
+      "background": "https://imgur.com/Q7Ah0Q7.png"
     }
   ]
 }
