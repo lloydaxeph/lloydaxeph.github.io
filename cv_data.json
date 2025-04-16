@@ -8,14 +8,15 @@
             "remote" : true,
             "logo" : "https://i.imgur.com/08s43GZ.png",
             "desc" : [
-                "Responsible for training, managing, and deploying unique AI (Computer Vision) models seamlessly into various client-specific business environment",
-                "Assumed the role of team leader during my manager's extended leave, overseeing team operations and ensuring continuous progress",
-                "Created an automated process enabling the Sales or Back Office team to initiate engine training simply by simply creating a specific Jira ticket without any assistance",
-                "Automated the validation and submission process for raw data to the voting system",
-                " Implemented automated analytical reports upon engine training completion, based on test results, to facilitate easy visualization and provide deeper insights into model performance",
-                "Developed tools to identify issues such as poor image quality, masking, and other factors that could negatively impact model performance",
+                "Led the end-to-end training, management, and deployment of 300+ unique AI (Computer Vision) models seamlessly into various client-specific business environment",
+                " Served as Assistant Team Leader, overseeing daily operations, maintaining project momentum, and ensuring continuity",
+                "Designed and implemented multiple CI/CD pipelines to automate workflows, including data processing, testing, model training, validation, and deployment, reducing manual intervention by 50%, accelerating deployment cycles by 30%, and cutting operation cost by at least 50%",
+                "Developed and enhanced several components of our AI engine, boosting performance by 25%, and enhancing overall functionality to support the clients' requirements",
+                "Implemented automated analytical reporting upon engine training completion, leveraging test results to generate intuitive visualizations and provide deeper insights into model performance, reducing manual reporting time by 60%",
+                "Primarily responsible for diagnosing underperforming deployed AI models across 300+ active projects and implementing effective solutions to address each of their issues",
                 "Resolved numerous bugs and enhanced existing features in the legacy codebase",
-                "Founding member of a global AI team, collaborating with AI/ML engineers and data scientists worldwide to foster consistent knowledge sharing and innovation"
+                "Developed comprehensive unit and integration tests, and enhancing code quality and maintainability, resulting in a 30% reduction in production bugs",
+                " Founding member of a global AI team, collaborating with AI/ML engineers and data scientists worldwide to foster consistent knowledge sharing and innovation"
             ]
         },
         {
