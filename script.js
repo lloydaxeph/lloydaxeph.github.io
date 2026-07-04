@@ -25,6 +25,7 @@ const titles = [
   "ModelOps Engineer",
   "MLOps Engineer",
   "Mechanical Engineer",
+  "Automation Engineer",
   "Robotics Engineer",
   "AI Software Engineer",
   "Machine Learning Engineer",

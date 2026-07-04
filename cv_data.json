@@ -1,23 +1,33 @@
 {
     "jobs" : [
         {
-            "position": "ModelOps Engineer",
+            "position": "Senior ModelOps Engineer",
             "company" : "Trax Retail",
-            "tenure" : "May 2022 - Present",
+            "tenure" : "Aug 2025 - Present",
             "type": "Full-time",
             "remote" : true,
             "logo" : "https://i.imgur.com/08s43GZ.png",
             "desc" : [
-                "Led the end-to-end training, management, and deployment of 300+ unique AI (Computer Vision) models seamlessly into various client-specific business environment",
-                " Served as Assistant Team Leader, overseeing daily operations, maintaining project momentum, and ensuring continuity",
-                "Designed and implemented multiple CI/CD pipelines to automate workflows, including data processing, testing, model training, validation, and deployment, reducing manual intervention by 50%, accelerating deployment cycles by 30%, and cutting operation cost by at least 50%",
-                "Developed and enhanced several components of our AI engine, boosting performance by 25%, and enhancing overall functionality to support the clients' requirements",
-                "Implemented automated analytical reporting upon engine training completion, leveraging test results to generate intuitive visualizations and provide deeper insights into model performance, reducing manual reporting time by 60%",
-                "Primarily responsible for diagnosing underperforming deployed AI models across 300+ active projects and implementing effective solutions to address each of their issues",
-                "Resolved numerous bugs and enhanced existing features in the legacy codebase",
-                "Developed comprehensive unit and integration tests, and enhancing code quality and maintainability, resulting in a 30% reduction in production bugs",
-                " Founding member of a global AI team, collaborating with AI/ML engineers and data scientists worldwide to foster consistent knowledge sharing and innovation"
-            ]
+    "Led the design and deployment of CI/CD pipelines automating the full ML lifecycle (data preprocessing, training, validation, deployment, analytics), reducing manual workload and accelerating release cycles.",
+    "Developed an AI agent for Jira ticket triage using Generative AI, Camunda, AWS Bedrock, Claude, and RAG, automating ticket classification and response which led to the reduction of manual workload by 75%.",
+    "Built AI-powered monitoring dashboards to track live model performance and reliability in production, and led diagnosis of underperforming models through statistical analysis, retraining, and hyperparameter tuning.",
+    "Modernized legacy services with FastAPI, MongoDB, and AWS Lambda, introducing unit testing, API redesign, and documentation standards across the codebase.",
+    "Responsible for maintaining the Image Recognition codebase, reviewing and approving code changes, and enforcing coding standards, engineering best practices, and software quality."
+]
+        },
+        {
+            "position": "ModelOps Engineer",
+            "company" : "Trax Retail",
+            "tenure" : "May 2022 - Aug 2025",
+            "type": "Full-time",
+            "remote" : true,
+            "logo" : "https://i.imgur.com/08s43GZ.png",
+            "desc" : [
+    "Developed, trained, and deployed AI computer vision models across 300+ different client projects.",
+    "Built and deployed containerized ML workflows using Docker and Kubernetes, improving model reliability and portability across cloud-native environments.",
+    "Contributed to CI/CD pipeline development supporting data preprocessing, model training, and deployment workflows.",
+    "Core contributor and founding member of the global AI team, collaborating with engineers and data scientists across the organization."
+]
         },
         {
             "position": "Software Developer",
@@ -27,14 +37,13 @@
             "remote" : false,
             "logo" : "https://i.imgur.com/rb8uzTK.png",
             "desc" : [
-                "Responsible in writing clean code related to the application of DevExpress products into a client specific business environment",
-                "Was in charge of ASP.NET Web Forms, MVC, and Blazor support for DevExpress clients",
-                "Provided real-time client support on how to implement DevExpress Components in their projects",
-                "Created several use-case examples published on the DevExpress website, demonstrating practical applications of the platform",
-                "Resolved numerous bugs and enhanced existing features in the legacy codebase to improve functionality and stability",
-                "Works with DevExpress developers to find bugs, troubleshoot, and improve existing products",
-                "Was responsible for creating documentation for proper product implementation and troubleshooting procedures"
-            ]
+    "Developed clean, maintainable, and scalable C# solutions integrating DevExpress components across 100+ client-specific enterprise applications.",
+    "Led technical support and solution development for C#, ASP.NET Web Forms, ASP.NET MVC, and Blazor applications, delivering implementation guidance and resolving complex engineering issues.",
+    "Provided expert technical consultation to enterprise clients on implementing and optimizing DevExpress UI components within production applications.",
+    "Authored over 100 technical code examples and implementation guides published on the DevExpress website, demonstrating best practices and real-world use cases.",
+    "Diagnosed, debugged, and resolved software defects while enhancing legacy codebases to improve application performance, stability, and maintainability.",
+    "Created comprehensive technical documentation, implementation guides, and troubleshooting procedures, reducing recurring support inquiries by 75% and improving knowledge sharing across engineering teams."
+]
         },
         {
             "position": "Automation Equipment Service Engineer",
@@ -44,18 +53,18 @@
             "remote" : false,
             "logo" : "https://i.imgur.com/P5DrEs9.png",
             "desc" : [
-                "Supervised all service operations of the company throughout the Philippines",
-                "Hands-on with both the assembly and troubleshooting of robots and other automation machines",
-                "Successfully managed projects that were delivered way ahead of schedule and under budget",
-                "Contributed to the mechanical/electrical design of most automation machines",
-                "Introduced several guidelines and created various tools using in-house materials to decrease production costs while increasing workflow efficiency"
-            ]
+    "Managed nationwide service operations across the Philippines, overseeing project execution, field service, and customer support for industrial automation systems.",
+    "Assembled, commissioned, diagnosed, and troubleshot industrial robots and automated machinery, ensuring reliable system performance and minimal downtime.",
+    "Reduced operational costs by 50% by leading cross-functional projects, optimizing workflows, and consistently delivering projects ahead of schedule and under budget.",
+    "Contributed to the mechanical and electrical design of five custom industrial automation machines, collaborating with multidisciplinary engineering teams from concept through deployment.",
+    "Developed standardized engineering procedures and built over 10 custom in-house tools, reducing production costs by 20% while improving operational efficiency and workflow productivity by 75%."
+]
         }
     ],
     "skills": [
     {
       "name": "Python",
-      "proficiency": 90,
+      "proficiency": 95,
       "logo": "https://i.imgur.com/OnLONPO.png"
     },
     {
@@ -65,27 +74,27 @@
     },
     {
       "name": "C++",
-      "proficiency": 70,
+      "proficiency": 80,
       "logo": "https://i.imgur.com/9itlz0H.png"
     },
     {
       "name": "Pytorch",
-      "proficiency": 80,
+      "proficiency": 95,
       "logo": "https://i.imgur.com/WXlH2q1.png"
     },
     {
       "name": "Tensor Flow",
-      "proficiency": 80,
+      "proficiency": 95,
       "logo": "https://i.imgur.com/Jda2oYx.png"
     },
     {
       "name": "Open CV",
-      "proficiency": 80,
+      "proficiency": 95,
       "logo": "https://i.imgur.com/7YClMMv.png"
     },
     {
         "name": "AWS",
-        "proficiency": 60,
+        "proficiency": 95,
         "logo": "https://i.imgur.com/TUUZfgc.png"
       },
       {
@@ -95,27 +104,27 @@
       },
       {
         "name": "Git",
-        "proficiency": 80,
+        "proficiency": 95,
         "logo": "https://i.imgur.com/0t0yGVN.png"
       },
       {
         "name": "Kubernetes",
-        "proficiency": 50,
+        "proficiency": 70,
         "logo": "https://i.imgur.com/lk3KEPo.png"
       },
       {
         "name": "Django",
-        "proficiency": 70,
+        "proficiency": 80,
         "logo": "https://i.imgur.com/iiPcWSH.png"
       },
       {
         "name": "Flask",
-        "proficiency": 60,
+        "proficiency": 90,
         "logo": "https://i.imgur.com/XwhANb3.png"
       },
       {
         "name": "Javascript",
-        "proficiency": 80,
+        "proficiency": 90,
         "logo": "https://i.imgur.com/tmHOzOF.png"
       },
       {
@@ -125,31 +134,31 @@
       },
       {
         "name": "AutoCAD",
-        "proficiency": 90,
+        "proficiency": 95,
         "logo": "https://i.imgur.com/xechiIZ.png"
       },
       {
         "name": "SolidWorks",
-        "proficiency": 90,
+        "proficiency": 95,
         "logo": "https://i.imgur.com/4zZa4b6.png"
       },
       {
         "name": "MySQL",
-        "proficiency": 90,
+        "proficiency": 95,
         "logo": "https://i.imgur.com/mIffeqU.png"
       },
       {
         "name": "MongoDB",
-        "proficiency": 90,
+        "proficiency": 95,
         "logo": "https://i.imgur.com/OTelgS6.png"
       }
   ],
   "projects" : [
     {
-        "title": "AI Papers Implementations",
-        "desc" : "List of AI papers I tried to implement so far: Multi-Head Attention Transformer - Attention Is All You Need, Generative Adversarial Network, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
-        "link" : "https://github.com/lloydaxeph/ai_paper_implementations",
-        "background": "https://i.imgur.com/43qbz7p.png"
+        "title": "Ai Job Hunter Agent",
+        "desc" : "An AI agent that intelligently searches, matches, and automatically applies to jobs using LLMs and browser automation.",
+        "link" : "https://github.com/lloydaxeph/ai_job_hunter",
+        "background": "https://i.imgur.com/RgC2sZo.png"
     },
     {
         "title": "Sign Language Translator",
@@ -164,6 +173,18 @@
         "background": "https://i.imgur.com/5k9iy8p.png"
     },
     {
+        "title": "Industrial Image Anomaly Detector",
+        "desc" : "CNN-based visual defect detection pipeline (PyTorch, OpenCV) formanufacturing quality control.",
+        "link" : "https://github.com/lloydaxeph/image_anomaly_detection",
+        "background": "https://i.imgur.com/xbWifsr.png"
+    },
+    {
+      "title": "IELTSGO! AI powered IELTS Practice Website",
+      "desc" : "A free website that lets you practice several skills related to IELTS. AI is used to review and evaluate your answers.",
+      "link" : "https://www.ieltsgo.net",
+      "background": "https://imgur.com/Q7Ah0Q7.png"
+    },
+    {
         "title": "AI Language Translator",
         "desc" : "This project aims to train and use a multi-head attention transformer model to translate German text to English. Dataset that will be used in this implemenation is the Multi30k dataset. The model that will be used is the Multi-Head Self-Attention Transformer model I created from scratch.",
         "link" : "https://github.com/lloydaxeph/german_english_translator",
@@ -176,12 +197,6 @@
         "background": "https://i.imgur.com/YdE9uTB.png"
     },
     {
-      "title": "IELTSGO! AI powered IELTS Practice Website",
-      "desc" : "A free website that lets you practice several skills related to IELTS. AI is used to review and evaluate your answers.",
-      "link" : "https://www.ieltsgo.net",
-      "background": "https://imgur.com/Q7Ah0Q7.png"
-    },
-    {
         "title": "Cloud-Atlas Weather App",
         "desc" : "Real-time interactive weather dashboard made using Angular",
         "link" : "https://github.com/lloyd-axe/cloud-atlas",
@@ -192,6 +207,12 @@
       "desc" : "Repository for different types of AI implementations related to HVAC.",
       "link" : "https://github.com/lloyd-axe/ai_in_hvac",
       "background": "https://imgur.com/BEXYA2Q.png"
+    },
+    {
+        "title": "AI Papers Implementations",
+        "desc" : "List of AI papers I tried to implement so far: Multi-Head Attention Transformer - Attention Is All You Need, Generative Adversarial Network, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "link" : "https://github.com/lloydaxeph/ai_paper_implementations",
+        "background": "https://i.imgur.com/43qbz7p.png"
     }
   ]
 }
