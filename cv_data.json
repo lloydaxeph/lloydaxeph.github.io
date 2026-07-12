@@ -173,6 +173,18 @@
         "background": "https://i.imgur.com/5k9iy8p.png"
     },
     {
+        "title": "Any Business - AI Chatbot",
+        "desc" : "AI chatbot for any businesses to answer customer inquiries using LLMs and RAG.",
+        "link" : "https://github.com/lloydaxeph/sunshine_properties_bot",
+        "background": "https://i.imgur.com/bjqKeC3.png"
+    },
+    {
+        "title": "Group Itinerary Planner",
+        "desc" : "Built a collaborative travel planning web app where users can create itineraries and friends can vote on them.",
+        "link" : "https://github.com/lloydaxeph/our_itinerary",
+        "background": "https://i.imgur.com/2JVmBvU.png"
+    },
+    {
         "title": "Industrial Image Anomaly Detector",
         "desc" : "CNN-based visual defect detection pipeline (PyTorch, OpenCV) formanufacturing quality control.",
         "link" : "https://github.com/lloydaxeph/image_anomaly_detection",
